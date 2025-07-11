@@ -1,3 +1,0 @@
-REACT_APP_SEARCH_PLACEHOLDER=Search by name, barcode, activation date, result date separate multiple search criteria with :
-REACT_APP_API_BASEURL=http://localhost:8080/test/v1.0
-REACT_APP_ORGANISATION_ID=fd33629c-c1e8-43f4-86b7-b85396815616
