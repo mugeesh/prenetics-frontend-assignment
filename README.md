@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+https://github.com/Prenetics/engineering/blob/main/fullstack.md
 
 This project is a test application built with React. Follow the steps below to set up and run the application.
 
@@ -23,10 +24,17 @@ http://localhost:9080/swagger/#/
 
 ##### System Setup and run
 1. node version 20
-2. update .env file, add REACT_APP_ORGANISATION_ID from backend step (4)
-3. `npm install`
-4. `npm start`
-5. ```http://localhost:3000/```
+2. copy env to .env or create and paste this value
+```
+   REACT_APP_SEARCH_PLACEHOLDER=Search by name, barcode, activation date, result date separate multiple search criteria with :
+   REACT_APP_API_BASEURL=http://localhost:8080/test/v1.0
+   REACT_APP_ORGANISATION_ID=fd33629c-c1e8-43f4-86b7-b85396815616
+   
+1. Update REACT_APP_ORGANISATION_ID from backend step (1. curl http://localhost:8080/test/v1.0/org)
+2. npm install
+3. npm start
+```
+http://localhost:3000/
 
 
 ##### Screenshot
